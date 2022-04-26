@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<remote name="gs" fetch="https://github.com/clhexfloslab" />
+	<remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
+	<remote name="crdroid-gh" fetch="https://github.com/crdroidandroid" />
+	<remote name="clhex-gh" fetch="https://github.com/clhexftw" />
+	
+	<project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" revision="12.1" remote="gs"/>	
+	<project path="kernel/xiaomi/sm8150" name="android_kernel_xiaomi_sm8150" revision="12.1" remote="crdroid-gh" />
+	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="crdroid-gh" revision="12.1" />
+	<project path="device/xiaomi/sm8150-common" name="android_device_xiaomi_sm8150-common" remote="crdroid-gh" revision="12.1" />
+  	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="gs" revision="12.0" />
+	<project path="packages/apps/Launcher3" name="packages_apps_Launcher3" revision="12.1" remote="clhex-gh"/>	
+	
+</manifest>
